@@ -1,0 +1,161 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager", "SystemTextManager\SystemTextManager.csproj", "{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Library", "0.Library", "{5421A14A-2475-4338-B616-4182A62AED5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{955B08A3-4E40-461E-87DA-D513F2EF2DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Database", "2.Database", "{E9C4ED21-1629-4375-9ED3-A8A572C0F537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Execute", "3.Execute", "{E5738F01-A233-45D9-9452-249C1456E0FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Launcher", "4.Launcher", "{D0B8B5BE-AE52-423A-A8BD-146AC861B2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH_Library", "..\..\00.BH\BH_Library\BH_Library\BH_Library.csproj", "{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager.Database", "SystemTextManager.Database\SystemTextManager.Database.csproj", "{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager.Core", "SystemTextManager.Core\SystemTextManager.Core.csproj", "{157BD854-7B43-4193-84A0-49D4F632FE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager.Launcher", "SystemTextManager.Launcher\SystemTextManager.Launcher.csproj", "{C95C723B-70F8-4EC0-A1D5-36D3A151C924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager.SettingJsonMaker", "SystemTextManager.SettingJsonMaker\SystemTextManager.SettingJsonMaker.csproj", "{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextManager.LauncherMaker", "SystemTextManager.LauncherMaker\SystemTextManager.LauncherMaker.csproj", "{50033553-7147-4FE1-AEC3-D948D7C67838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{75AD677E-32A8-469F-A908-049ED5DB2F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testProject", "testProject\testProject.csproj", "{99E879B9-FC94-4264-9965-9E05B711A994}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A}.Release|x86.Build.0 = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|x86.ActiveCfg = Debug|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Debug|x86.Build.0 = Debug|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|x86.ActiveCfg = Release|x86
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F}.Release|x86.Build.0 = Release|x86
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Debug|x86.Build.0 = Debug|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Release|x86.ActiveCfg = Release|Any CPU
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0}.Release|x86.Build.0 = Release|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Debug|x86.Build.0 = Debug|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Release|x86.ActiveCfg = Release|Any CPU
+		{157BD854-7B43-4193-84A0-49D4F632FE69}.Release|x86.Build.0 = Release|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Debug|x86.Build.0 = Debug|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Release|x86.ActiveCfg = Release|Any CPU
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924}.Release|x86.Build.0 = Release|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Debug|x86.Build.0 = Debug|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Release|x86.ActiveCfg = Release|Any CPU
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702}.Release|x86.Build.0 = Release|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Debug|x86.Build.0 = Debug|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Release|x86.ActiveCfg = Release|Any CPU
+		{50033553-7147-4FE1-AEC3-D948D7C67838}.Release|x86.Build.0 = Release|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Debug|x86.Build.0 = Debug|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Release|x86.ActiveCfg = Release|Any CPU
+		{99E879B9-FC94-4264-9965-9E05B711A994}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6FF3A27-A8EC-454A-8255-4FBDE2F1712A} = {E5738F01-A233-45D9-9452-249C1456E0FB}
+		{58B1C94C-A7F1-4F3D-9D28-A2D03330125F} = {5421A14A-2475-4338-B616-4182A62AED5A}
+		{ABA20847-1707-4E93-8B10-BF8C20FBE1A0} = {E9C4ED21-1629-4375-9ED3-A8A572C0F537}
+		{157BD854-7B43-4193-84A0-49D4F632FE69} = {955B08A3-4E40-461E-87DA-D513F2EF2DB2}
+		{C95C723B-70F8-4EC0-A1D5-36D3A151C924} = {D0B8B5BE-AE52-423A-A8BD-146AC861B2CC}
+		{02F1F5AD-7DC8-4F30-9CB9-B241DF782702} = {E5738F01-A233-45D9-9452-249C1456E0FB}
+		{50033553-7147-4FE1-AEC3-D948D7C67838} = {D0B8B5BE-AE52-423A-A8BD-146AC861B2CC}
+		{99E879B9-FC94-4264-9965-9E05B711A994} = {75AD677E-32A8-469F-A908-049ED5DB2F8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D468A98E-CAEB-4AA0-9742-7B5FC524CD70}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bhpg.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SystemTextManager\\SystemTextManager.csproj
+		SccProjectTopLevelParentUniqueName1 = SystemTextManager.sln
+		SccProjectName1 = SystemTextManager
+		SccLocalPath1 = SystemTextManager
+		SccProjectUniqueName2 = ..\\..\\00.BH\\BH_Library\\BH_Library\\BH_Library.csproj
+		SccProjectTopLevelParentUniqueName2 = SystemTextManager.sln
+		SccProjectName2 = ../../00.BH/BH_Library/BH_Library
+		SccLocalPath2 = ..\\..\\00.BH\\BH_Library\\BH_Library
+		SccProjectUniqueName3 = SystemTextManager.Database\\SystemTextManager.Database.csproj
+		SccProjectTopLevelParentUniqueName3 = SystemTextManager.sln
+		SccProjectName3 = SystemTextManager.Database
+		SccLocalPath3 = SystemTextManager.Database
+		SccProjectUniqueName4 = SystemTextManager.Core\\SystemTextManager.Core.csproj
+		SccProjectTopLevelParentUniqueName4 = SystemTextManager.sln
+		SccProjectName4 = SystemTextManager.Core
+		SccLocalPath4 = SystemTextManager.Core
+		SccProjectUniqueName5 = SystemTextManager.Launcher\\SystemTextManager.Launcher.csproj
+		SccProjectTopLevelParentUniqueName5 = SystemTextManager.sln
+		SccProjectName5 = SystemTextManager.Launcher
+		SccLocalPath5 = SystemTextManager.Launcher
+		SccProjectUniqueName6 = SystemTextManager.SettingJsonMaker\\SystemTextManager.SettingJsonMaker.csproj
+		SccProjectTopLevelParentUniqueName6 = SystemTextManager.sln
+		SccProjectName6 = SystemTextManager.SettingJsonMaker
+		SccLocalPath6 = SystemTextManager.SettingJsonMaker
+		SccProjectUniqueName7 = SystemTextManager.LauncherMaker\\SystemTextManager.LauncherMaker.csproj
+		SccProjectTopLevelParentUniqueName7 = SystemTextManager.sln
+		SccProjectName7 = SystemTextManager.LauncherMaker
+		SccLocalPath7 = SystemTextManager.LauncherMaker
+		SccProjectUniqueName8 = testProject\\testProject.csproj
+		SccProjectTopLevelParentUniqueName8 = SystemTextManager.sln
+		SccProjectName8 = testProject
+		SccLocalPath8 = testProject
+	EndGlobalSection
+EndGlobal
